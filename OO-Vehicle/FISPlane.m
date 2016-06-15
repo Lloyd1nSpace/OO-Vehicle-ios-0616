@@ -29,13 +29,13 @@
 
 - (void)increaseAltitude {
     
-    _currentAltitude = _topAltitude;
+    self.currentAltitude = self.topAltitude;
     
 }
 
 - (void)decreaseAltitude {
     
-    _currentAltitude = 0;
+    self.currentAltitude = 0;
     
 }
 

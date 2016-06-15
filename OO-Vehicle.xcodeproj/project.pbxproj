@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3DFA76FD98314A86B90ED3D0 /* libPods-OO-VehicleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4327EB2CC48D45EF81D28A6F /* libPods-OO-VehicleTests.a */; };
+		6EA1AA971D11932A0078D8BF /* FISVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1AA961D11932A0078D8BF /* FISVehicle.m */; };
+		6EA1AA9A1D119B340078D8BF /* FISCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1AA991D119B340078D8BF /* FISCar.m */; };
+		6EA1AA9D1D119C300078D8BF /* FISPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1AA9C1D119C300078D8BF /* FISPlane.m */; };
+		6EA1AAA01D119FCC0078D8BF /* FISRaceCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA1AA9F1D119FCC0078D8BF /* FISRaceCar.m */; };
 		725C325E191AAF1E0050AE4C /* FISCarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 725C325D191AAF1E0050AE4C /* FISCarSpec.m */; };
 		725C3263191AC1450050AE4C /* FISRaceCarSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 725C3262191AC1450050AE4C /* FISRaceCarSpec.m */; };
 		72723B101917158900D79F15 /* FISVehicleSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 72723B0F1917158900D79F15 /* FISVehicleSpec.m */; };
@@ -38,6 +42,14 @@
 /* Begin PBXFileReference section */
 		4327EB2CC48D45EF81D28A6F /* libPods-OO-VehicleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OO-VehicleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D4BA3562B18252CA354A2F /* Pods-OO-VehicleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OO-VehicleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OO-VehicleTests/Pods-OO-VehicleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6EA1AA951D11932A0078D8BF /* FISVehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISVehicle.h; sourceTree = "<group>"; };
+		6EA1AA961D11932A0078D8BF /* FISVehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISVehicle.m; sourceTree = "<group>"; };
+		6EA1AA981D119B340078D8BF /* FISCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCar.h; sourceTree = "<group>"; };
+		6EA1AA991D119B340078D8BF /* FISCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCar.m; sourceTree = "<group>"; };
+		6EA1AA9B1D119C300078D8BF /* FISPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlane.h; sourceTree = "<group>"; };
+		6EA1AA9C1D119C300078D8BF /* FISPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlane.m; sourceTree = "<group>"; };
+		6EA1AA9E1D119FCC0078D8BF /* FISRaceCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISRaceCar.h; sourceTree = "<group>"; };
+		6EA1AA9F1D119FCC0078D8BF /* FISRaceCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISRaceCar.m; sourceTree = "<group>"; };
 		725C325D191AAF1E0050AE4C /* FISCarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCarSpec.m; sourceTree = "<group>"; };
 		725C3262191AC1450050AE4C /* FISRaceCarSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISRaceCarSpec.m; sourceTree = "<group>"; };
 		72723B0F1917158900D79F15 /* FISVehicleSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISVehicleSpec.m; sourceTree = "<group>"; };
@@ -124,6 +136,14 @@
 				72786A8D1911A44B000E93A3 /* Images.xcassets */,
 				72786A8A1911A44B000E93A3 /* FISAppDelegate.h */,
 				72786A8B1911A44B000E93A3 /* FISAppDelegate.m */,
+				6EA1AA951D11932A0078D8BF /* FISVehicle.h */,
+				6EA1AA961D11932A0078D8BF /* FISVehicle.m */,
+				6EA1AA981D119B340078D8BF /* FISCar.h */,
+				6EA1AA991D119B340078D8BF /* FISCar.m */,
+				6EA1AA9B1D119C300078D8BF /* FISPlane.h */,
+				6EA1AA9C1D119C300078D8BF /* FISPlane.m */,
+				6EA1AA9E1D119FCC0078D8BF /* FISRaceCar.h */,
+				6EA1AA9F1D119FCC0078D8BF /* FISRaceCar.m */,
 				72786A821911A44B000E93A3 /* Supporting Files */,
 			);
 			path = "OO-Vehicle";
@@ -301,8 +321,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA1AA971D11932A0078D8BF /* FISVehicle.m in Sources */,
+				6EA1AA9D1D119C300078D8BF /* FISPlane.m in Sources */,
+				6EA1AAA01D119FCC0078D8BF /* FISRaceCar.m in Sources */,
 				72786A881911A44B000E93A3 /* main.m in Sources */,
 				72786A8C1911A44B000E93A3 /* FISAppDelegate.m in Sources */,
+				6EA1AA9A1D119B340078D8BF /* FISCar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
